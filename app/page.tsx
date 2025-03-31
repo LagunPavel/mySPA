@@ -1,8 +1,4 @@
-import { useDispatch, useSelector } from 'react-redux';
-import axios from 'axios';
-import Card from './components/Card';
-import CardForm from './components/CardForm';
-import { setCards } from './features/cardsSlice';
+
 import Image from "next/image";
 
 export default function Home() {
@@ -13,7 +9,7 @@ export default function Home() {
           className="dark:invert"
           src="/next.svg"
           alt="Next.js logo"
-          width={180}
+          width={360}
           height={38}
           priority
         />
